@@ -56,7 +56,7 @@ public class Light extends Beam{
 
     @Override
     public Traje atacar(Traje samus) {
-        samus.setMedirdanio(samus.getMedirdanio()+99);
+        samus.setMedirdanio(samus.getMedirdanio()+1);
         return samus;
     }
     
